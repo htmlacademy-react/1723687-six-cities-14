@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Алина Курицына](https://up.htmlacademy.ru/react/14/user/1723687).
-* Наставник: `Неизвестно`.
+* Наставник: [Yulia Volkova](https://htmlacademy.ru/profile/id423707).
 
 ---
 
