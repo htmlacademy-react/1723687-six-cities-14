@@ -97,8 +97,8 @@ function Main({offersCount, favoriteCount}: MainProps): JSX.Element {
                 </ul>
               </form>
               <div className="cities__places-list places__list tabs__content">
-                {cardsData.map(card => <Card key={card.id}/>)}
-               </div>
+                {cardsData.map((card) => <Card key={card.id}/>)}
+              </div>
             </section>
             <div className="cities__right-section">
               <section className="cities__map map"></section>
