@@ -1,8 +1,13 @@
 import Main from "../../pages/main/main";
 
-function App(): JSX.Element {
+type AppProps = {
+    offersCount: number;
+    favoriteCount: number;
+}
+
+function App({offersCount, favoriteCount}: AppProps): JSX.Element {
     return (
-        <Main/>
+        <Main offersCount={offersCount} favoriteCount={favoriteCount}/>
     );
 }
 
