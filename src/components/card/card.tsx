@@ -34,5 +34,7 @@ function Card(): JSX.Element {
             <p className="place-card__type">Apartment</p>
             </div>
         </article>
-    )
+    );
 }
+
+export default Card;

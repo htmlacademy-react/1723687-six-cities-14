@@ -1,3 +1,5 @@
+import Card from "../../components/card/card"; 
+
 function Main(): JSX.Element {
     return (
         <div className="page page--gray page--main">
@@ -89,7 +91,7 @@ function Main(): JSX.Element {
                     </ul>
                     </form>
                     <div className="cities__places-list places__list tabs__content">
-
+                        <Card/>
                     </div>
                 </section>
                 <div className="cities__right-section">
